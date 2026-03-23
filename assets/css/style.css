@@ -39,8 +39,7 @@ form{
 .inputs-container{
     display: flex;
     justify-content: space-between;
-    gap: 24px;
-    flex-wrap: wrap;
+    margin: 14px 0;
 }
 
 .inputs-container input{
@@ -59,7 +58,7 @@ form{
     gap: 24px;
 }
 
-.radio-container label{
+.radio-container .radio-item{
     display: flex;
     gap: 8px;
     border: 1px solid white;
@@ -69,12 +68,10 @@ form{
 
 .radio-container .radio-title{
     font-size: 16px;
-    margin: 8px 0;
 }
 
 .radio-container .radio-description{
     font-size: 10px;
-    display: block;
 }
 
 /*checkbox*/
